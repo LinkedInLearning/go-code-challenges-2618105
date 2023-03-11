@@ -1,6 +1,6 @@
 package prime
 
-func FindPrimes(min, max int) []int {
+func FindPrimeNumbersInInterval(min, max int) []int {
 	var primes []int
 
 	for i := min; i <= max; i++ {
