@@ -6,7 +6,7 @@ import (
 
 func TestUpdateQuality_regularItem(t *testing.T) {
 	items := []*Item{
-		&Item{"foo", 10, 10},
+		{"foo", 10, 10},
 	}
 
 	UpdateQuality(items)
@@ -24,7 +24,7 @@ func TestUpdateQuality_regularItem(t *testing.T) {
 
 func TestUpdateQuality_sellDatePassed(t *testing.T) {
 	items := []*Item{
-		&Item{"foo", 0, 10},
+		{"foo", 0, 10},
 	}
 
 	UpdateQuality(items)
@@ -42,7 +42,7 @@ func TestUpdateQuality_sellDatePassed(t *testing.T) {
 
 func TestUpdateQuality_qualityIsNeverNegative(t *testing.T) {
 	items := []*Item{
-		&Item{"foo", 10, 0},
+		{"foo", 10, 0},
 	}
 
 	UpdateQuality(items)
@@ -60,7 +60,7 @@ func TestUpdateQuality_qualityIsNeverNegative(t *testing.T) {
 
 func TestUpdateQuality_agedBrie(t *testing.T) {
 	items := []*Item{
-		&Item{"Aged Brie", 10, 10},
+		{"Aged Brie", 10, 10},
 	}
 
 	UpdateQuality(items)
@@ -96,7 +96,7 @@ func TestUpdateQuality_agedBrie_sellDatePassed(t *testing.T) {
 
 func TestUpdateQuality_agedBrie_qualityIsNeverMoreThan50(t *testing.T) {
 	items := []*Item{
-		&Item{"Aged Brie", 10, 50},
+		{"Aged Brie", 10, 50},
 	}
 
 	UpdateQuality(items)
@@ -114,7 +114,7 @@ func TestUpdateQuality_agedBrie_qualityIsNeverMoreThan50(t *testing.T) {
 
 func TestUpdateQuality_sulfuras(t *testing.T) {
 	items := []*Item{
-		&Item{"Sulfuras, Hand of Ragnaros", 10, 10},
+		{"Sulfuras, Hand of Ragnaros", 10, 10},
 	}
 
 	UpdateQuality(items)
@@ -132,7 +132,7 @@ func TestUpdateQuality_sulfuras(t *testing.T) {
 
 func TestUpdateQuality_backstagePasses(t *testing.T) {
 	items := []*Item{
-		&Item{"Backstage passes to a TAFKAL80ETC concert", 20, 10},
+		{"Backstage passes to a TAFKAL80ETC concert", 20, 10},
 	}
 
 	UpdateQuality(items)
@@ -150,7 +150,7 @@ func TestUpdateQuality_backstagePasses(t *testing.T) {
 
 func TestUpdateQuality_backstagePasses10Days(t *testing.T) {
 	items := []*Item{
-		&Item{"Backstage passes to a TAFKAL80ETC concert", 9, 10},
+		{"Backstage passes to a TAFKAL80ETC concert", 9, 10},
 	}
 
 	UpdateQuality(items)
@@ -168,7 +168,7 @@ func TestUpdateQuality_backstagePasses10Days(t *testing.T) {
 
 func TestUpdateQuality_backstagePasses5Days(t *testing.T) {
 	items := []*Item{
-		&Item{"Backstage passes to a TAFKAL80ETC concert", 4, 10},
+		{"Backstage passes to a TAFKAL80ETC concert", 4, 10},
 	}
 
 	UpdateQuality(items)
@@ -186,7 +186,7 @@ func TestUpdateQuality_backstagePasses5Days(t *testing.T) {
 
 func TestUpdateQuality_backstagePassesExpired(t *testing.T) {
 	items := []*Item{
-		&Item{"Backstage passes to a TAFKAL80ETC concert", 0, 10},
+		{"Backstage passes to a TAFKAL80ETC concert", 0, 10},
 	}
 
 	UpdateQuality(items)
@@ -204,7 +204,7 @@ func TestUpdateQuality_backstagePassesExpired(t *testing.T) {
 
 func TestUpdateQuality_conjured(t *testing.T) {
 	items := []*Item{
-		&Item{"Conjured Mana Cake", 10, 10},
+		{"Conjured Mana Cake", 10, 10},
 	}
 
 	UpdateQuality(items)
