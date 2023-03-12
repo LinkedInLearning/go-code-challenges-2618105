@@ -2,7 +2,7 @@ package wordcountreader
 
 import "testing"
 
-func TestReadFile(t *testing.T) {
+func TestReadFileContent(t *testing.T) {
 
 	fi := ReadFileContent("simple_words.txt")
 
