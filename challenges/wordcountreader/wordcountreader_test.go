@@ -15,7 +15,7 @@ func TestReadFile(t *testing.T) {
 	}
 
 	if fi.CharactersExcludingSpaces != 70 {
-		t.Errorf("Expected 71 characters excluding spaces, got %d",
+		t.Errorf("Expected 70 characters excluding spaces, got %d",
 			fi.CharactersExcludingSpaces)
 	}
 
