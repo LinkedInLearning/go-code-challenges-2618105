@@ -1,36 +1,37 @@
-# COURSENAME
-This is the repository for the LinkedIn Learning course `course-name`. The full course is available from [LinkedIn Learning][lil-course-url].
+# Code-Challenges für Go
 
-![course-name-alt-text][lil-thumbnail-url] 
+Dies ist das Repository für den **LinkedIn Learning** Kurs `Code-Challenges für Go`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
-_See the readme file in the main branch for updated instructions and information._
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+![course-name-alt-text][lil-thumbnail-url]
+
+Hinter den Code-Challenges stecken kompakte spannende Programmierrätsel auf unterschiedlichen Schwierigkeitsstufen, mit denen Sie ihre vorhandenen Go-Skills testen oder weitere neu hinzulernen können. Dazu zählen etablierte mathematische und algorithmische Problemstellungen aus der Informatik, aber auch Coding-Katas aus der Software Crafting Community.
+Zu jeder Aufgabe liefert Ihr Trainer Kevin Wittek gleich die passende Lösung, doch können Sie auch Ihren Lösungsweg ganz leicht mitprogrammieren und testen, denn dieser Kurs zeichnet sich durch eine nahtlose Integration von GitHub Codespaces, einer cloudbasierten Entwicklungsumgebung (IDE), aus.
+Die Installation und Aktivierung der Sandbox wird zum Start des Kurses  beschrieben. Ein wenig Erfahrung mit Github und Microsoft Visual Studio Code ist hilfreich, aber nicht unbedingt erforderlich. Die einzelnen Challenges sind unabhängig voneinander, so dass Sie sie in beliebiger Reihenfolge durchgehen und ansehen können.
+
+## Anleitung
+
+Dieser Kurs ist in GitHub Codespaces integriert, eine sofort verfügbare Cloud-Entwicklungsumgebung, die alle Funktionen Ihrer bevorzugten IDE bietet, ohne dass Sie einen lokalen Rechner einrichten müssen. Mit Codespaces können Sie von jedem Rechner aus und zu jeder Zeit praktische Übungen durchführen - und dabei ein Tool verwenden, das Ihnen häufig in der Praxis begegnen wird.
+
+Jede Folge der Code-Challenges-Serie bietet mindestens 12 praktische Übungen in verschiedenen Schwierigkeitsgraden, so dass Sie sich selbst herausfordern und das Gelernte festigen können. Schauen Sie sich das Video " Wie verwende ich GitHub Codespaces mit diesem Kurs?" an, um zu erfahren, wie man einen Codespace einrichtet und zum Einsatz bringt.
 
 ## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
 
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
+Alle Inhalte sind direkt im `main`-Branch abgelegt.
+Die Lösungen finden sich im `solutions` Unterordner.
 
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
+## Installation
 
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
+* Um diese Übungsdateien am besten nutzen zu können, können Sie das Repository direkt mit GitHub Codespaces im Browser öffnen. Alternativ können Sie auch lokal folgendes installiert haben:
+  * Go 1.20
+  * VSCode
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+### Autor
 
+**Kevin Wittek**
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+_Engineering Manager, Coach & Trainer._
+
+Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/kevin-wittek) an. Folgen Sie ihm auf [LinkedIn](https://www.linkedin.com/in/kevin-wittek?trk=lil_instructor) und [Twitter](https://twitter.com/kiview).
 
 [lil-course-url]: https://www.linkedin.com/learning/
 [lil-thumbnail-url]: http://
-

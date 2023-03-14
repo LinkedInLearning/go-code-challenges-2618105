@@ -1,5 +1,7 @@
 package gildedrose
 
+import "strings"
+
 type Item struct {
 	Name            string
 	SellIn, Quality int
@@ -7,6 +9,13 @@ type Item struct {
 
 func UpdateQuality(items []*Item) {
 	for i := 0; i < len(items); i++ {
+
+		if strings.Contains(items[i].Name, "Conjured") {
+			items[i].SellIn = items[i].SellIn - 1
+			items[i].Quality = items[i].Quality - 2
+			continue
+		}
+
 		if items[i].Name != "Aged Brie" && items[i].Name != "Backstage passes to a TAFKAL80ETC concert" {
 			if items[i].Quality > 0 {
 				if items[i].Name != "Sulfuras, Hand of Ragnaros" {
