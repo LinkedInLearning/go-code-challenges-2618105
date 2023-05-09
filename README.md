@@ -33,5 +33,5 @@ _Engineering Manager, Coach & Trainer._
 
 Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/kevin-wittek) an. Folgen Sie ihm auf [LinkedIn](https://www.linkedin.com/in/kevin-wittek?trk=lil_instructor) und [Twitter](https://twitter.com/kiview).
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+[lil-course-url]: https://www.linkedin.com/learning/code-challenges-fur-go
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQGmCz5SopHsjA/learning-public-crop_675_1200/0/1683196232167?e=2147483647&v=beta&t=ttPQ3x1L3o94oBF4shvqmQbo4_Lx1rxJYOr10QI7_Ls
