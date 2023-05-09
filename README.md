@@ -1,4 +1,4 @@
-# Code-Challenges für Go
+# Code-Challenges für Go 
 
 Dies ist das Repository für den **LinkedIn Learning** Kurs `Code-Challenges für Go`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
